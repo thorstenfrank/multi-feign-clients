@@ -1,6 +1,8 @@
 # multi-feign-clients
 Spring Cloud Netflix example of re-using/creating feign clients
 
+This repo is a sample created for issue https://github.com/spring-cloud/spring-cloud-netflix/issues/1852
+
 ## Contents
 
 * *service-provider* is a Spring Boot app with a simple hello world REST interface
