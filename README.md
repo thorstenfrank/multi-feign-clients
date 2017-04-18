@@ -8,7 +8,7 @@ This repo is a sample created for issue https://github.com/spring-cloud/spring-c
 * *service-provider* is a Spring Boot app with a simple hello world REST interface
 * *consumer-lib*: library with a dependency to the provider and a RestController automatically created via AutoConfiguration. This controller simply delegates to the `service-provider`
 * *service-consumer*: App that uses both the lib and the provider directly.
-* *unaware-consumer*: no direct dependencies to the provider, only indirectyl through the library, including the REST controller from there
+* *unaware-consumer*: no direct dependencies to the provider, only indirectly through the library, including the REST controller from there
 
 ## Running
 
