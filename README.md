@@ -1,6 +1,8 @@
 # multi-feign-clients
 Spring Cloud Netflix example of re-using/creating feign clients
 
+Illustrates the problem that even though a `@FeignClient` annotated client is already available (through an application using the `consumer-lib`, the `@ConditionalOnMissingBean` of the lib's autoconfiguration never holds.
+
 This repo is a sample created for issue https://github.com/spring-cloud/spring-cloud-netflix/issues/1852
 
 ## Contents
